@@ -155,6 +155,7 @@ class manager_conf {
 			$output .= "eventfilter = Event: UserEvent\n";
 			$output .= "eventfilter = Event: FullyBooted\n";
 			$output .= "eventfilter = Event: MixMonitorStart\n";
+			$output .= "eventfilter = Event: BridgeEnter\n";
 			$output .= "writetimeout=1000\n";
 			$output .= "\n";
 			$output .= "[srtapi_queue_events]\n";
